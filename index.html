@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
+  <script>
+    document.documentElement.className += ' js'
+  </script>
+  <title>Filmes Fantásticos</title>
+</head>
+
+<body>
+  <div class="grid-container">
+    <nav class="menu" data-menu="suave">
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul data-menu="list" id="menu">
+        <li><a href="#filmes">Filmes</a></li>
+        <li data-dropdown>
+          <a href="Sobre.html">Sobre</a>
+          <ul class="dropdown-menu">
+            <li><a href="empresa.html">A Empresa</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="socios.html">Sócios</a></li>
+            <li><a href="investidores.html">Investidores</a></li>
+          </ul>
+        </li>
+        <li><a href="#faq">Faq</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a data-modal="abrir" href="login.html">Login ➝</a></li>
+      </ul>
+    </nav>
+    <section class="grid-section filmes" data-anime="scroll" id="filmes">
+      <h1 class="titulo">Filmes Fantásticos</h1>
+      <ul class="filmes-lista" data-tab="menu">
+        <li>
+          <img src="./img/img_1.jpg">
+        </li>
+        <li>
+          <img src="./img/img_2.jpg">
+        </li>
+        <li>
+          <img src="./img/img_3.jpg">
+        </li>
+        <li>
+          <img src="./img/img_4.jpg">
+        </li>
+        <li>
+          <img src="./img/img_5.jpg">
+        </li>
+      </ul>
+
+      <div class="filmes-descricao" data-tab="content">
+        <section data-anime="show-right">
+          <h2>Ação e Aventura</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum corrupti veniam quia culpa? Non exercitationem fugit repellendus in quibusdam esse dicta asperiores, ratione modi laboriosam!</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo totam iure enim possimus obcaecati expedita dolores, commodi blanditiis velit doloremque quam. Omnis necessitatibus, possimus impedit aliquam aliquid itaque tempore veniam suscipit accusantium odio placeat accusamus.</p>
+        </section>
+        <section data-anime="show-down">
+          <h2>Comédia</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum corrupti veniam quia culpa? Non exercitationem fugit repellendus in quibusdam esse dicta asperiores, ratione modi laboriosam!</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo totam iure enim possimus obcaecati expedita dolores, commodi blanditiis velit doloremque quam. Omnis necessitatibus, possimus impedit aliquam aliquid itaque tempore veniam suscipit accusantium odio placeat accusamus.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum doloremque excepturi reprehenderit molestiae a dolorem nostrum odit esse labore, incidunt consequuntur reiciendis, distinctio aliquam vitae.</p>
+        </section>
+        <section data-anime="show-right">
+          <h2>Ficção Científica</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum corrupti veniam quia culpa? Non exercitationem fugit repellendus in quibusdam esse dicta asperiores, ratione modi laboriosam!</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum doloremque excepturi reprehenderit molestiae a dolorem nostrum odit esse labore, incidunt consequuntur reiciendis, distinctio aliquam vitae.</p>
+        </section>
+        <section data-anime="show-down">
+          <h2>Terror e Suspense</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum corrupti veniam quia culpa? Non exercitationem fugit repellendus in quibusdam esse dicta asperiores, ratione modi laboriosam!</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo totam iure enim possimus obcaecati expedita dolores, commodi blanditiis velit doloremque quam. Omnis necessitatibus, possimus impedit aliquam aliquid itaque tempore veniam suscipit accusantium odio placeat accusamus.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum doloremque excepturi reprehenderit molestiae a dolorem nostrum odit esse labore, incidunt consequuntur reiciendis, distinctio aliquam vitae.</p>
+        </section>
+        <section data-anime="show-right">
+          <h2>Infantil</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum corrupti veniam quia culpa? Non exercitationem fugit repellendus in quibusdam esse dicta asperiores, ratione modi laboriosam!</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo totam iure enim possimus obcaecati expedita dolores, commodi blanditiis velit doloremque quam. Omnis necessitatibus, possimus impedit aliquam aliquid itaque tempore veniam suscipit accusantium odio placeat accusamus.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum doloremque excepturi reprehenderit molestiae a dolorem nostrum odit esse labore, incidunt consequuntur reiciendis, distinctio aliquam vitae.</p>
+        </section>
+      </div>
+    </section>
+    <section class="grid-section faq" data-anime="scroll" id="faq">
+      <h1 class="titulo">FAQ</h1>
+      <dl class="faq-lista" data-anime="accordion">
+        <dt>Quantos Filmes eu posso assistir?</dt>
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis maxime itaque, eius ullam labore sequi!</dd>
+        <dt>Por que me interessar pelos Filmes?</dt>
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis maxime itaque, eius ullam labore sequi!</dd>
+        <dt>Devo começar comprando muitos Filmes?</dt>
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis maxime itaque, eius ullam labore sequi!</dd>
+        <dt>Qual o melhor diretor para terror e suspense?</dt>
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis maxime itaque, eius ullam labore sequi!</dd>
+      </dl>
+    </section>
+
+    <section class="grid-section numeros" data-anime="scroll">
+      <h1 class="titulo">Números</h1>
+      <div class="numeros-grid">
+
+      </div>
+    </section>
+
+    <section class="grid-section contato" data-anime="scroll" id="contato">
+      <h1 class="titulo">Contato</h1>
+      <div class="mapa" data-tooltip aria-label="Endereço próximo ao estacionamento!">
+        <img src="./img/img_6.jpg">
+      </div>
+      <ul class="dados">
+        <li>filmesfantasticos@gmail.com</li>
+        <li>+55 16 3983-6752</li>
+        <li>Rua Filmes Fantásticos 522</li>
+        <li>São Paulo - Brasil</li>
+        <li>Doe <span class="btc-preco">0</span> bitcoins para nos ajudar!!!</li>
+        <li data-semana="1,2,3,4,5" data-horario="8,18">Seg à Sexta das 08h as 18h</li>
+      </ul>
+    </section>
+    <footer class="copy">
+      <p>Todos os direitos reservados.</p>
+      <button class="back-to-top">Voltar ao topo ↑</button>
+    </footer>
+  </div>
+
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar">X</button>
+      <form action="">
+        <label for="email">Email</label>
+        <input type="text" form="email" id="email">
+        <label for="senha">Senha</label>
+        <input type="password" form="senha" id="senha">
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="main.js/main.js"></script>
+
+</body>
+
+</html>
