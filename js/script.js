@@ -1,6 +1,6 @@
 import ScrollSuave from './modules/ScrollSuave.js';
-import iniTabNav from './modules/TabNav.js';
 import initAccordion from './modules/Accordion.js';
+import iniTabNav from './modules/TabNav.js';
 import initAnimacaoScroll from './modules/AnimacaoScroll.js';
 import endOfTheSite from './modules/endOfTheSite.js';
 import initModal from './modules/Modal.js';
@@ -15,8 +15,8 @@ import initFetchBitcoin from './modules/fetch-bitcoin.js';
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
 scrollSuave.init();
 
-iniTabNav();
 initAccordion();
+iniTabNav();
 initAnimacaoScroll();
 endOfTheSite();
 initModal();
