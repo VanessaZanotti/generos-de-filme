@@ -10,7 +10,7 @@ import outsideClick from './modules/outsideClick.js';
 import initMenuMobile from './modules/menu-mobile.js';
 import initFuncionamento from './modules/funcionamento.js';
 import fetchFilmes from './modules/fetch-filmes.js';
-import initFetchBitcoin from './modules/fetch-bitcoin.js';
+import fetchBitcoin from './modules/fetch-bitcoin.js';
 
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
 scrollSuave.init();
@@ -35,6 +35,7 @@ const tooltip = new ToolTip('[data-tooltip]');
 tooltip.init();
 
 fetchFilmes(' ../../filmesapi.json', '.numeros-grid');
+fetchBitcoin('https://blockchain.info/ticker', '.btc-preco');
 
 initAnimacaoScroll();
 endOfTheSite();
@@ -42,5 +43,3 @@ initDropDownMenu();
 outsideClick();
 initMenuMobile();
 initFuncionamento();
-
-initFetchBitcoin();
