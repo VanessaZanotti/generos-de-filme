@@ -9,7 +9,7 @@ import initDropDownMenu from './modules/dropDownMenu.js';
 import outsideClick from './modules/outsideClick.js';
 import initMenuMobile from './modules/menu-mobile.js';
 import initFuncionamento from './modules/funcionamento.js';
-import initFetchFilmes from './modules/fetch-filmes.js';
+import fetchFilmes from './modules/fetch-filmes.js';
 import initFetchBitcoin from './modules/fetch-bitcoin.js';
 
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
@@ -34,11 +34,13 @@ modal.init();
 const tooltip = new ToolTip('[data-tooltip]');
 tooltip.init();
 
+fetchFilmes(' ../../filmesapi.json', '.numeros-grid');
+
 initAnimacaoScroll();
 endOfTheSite();
 initDropDownMenu();
 outsideClick();
 initMenuMobile();
 initFuncionamento();
-initFetchFilmes();
+
 initFetchBitcoin();
