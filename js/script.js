@@ -6,7 +6,7 @@ import ToolTip from './modules/ToolTip.js';
 import ScrollAnima from './modules/Scroll-anima.js';
 import endOfTheSite from './modules/endOfTheSite.js';
 import MenuMobile from './modules/menu-mobile.js';
-import initFuncionamento from './modules/funcionamento.js';
+import Funcionamento from './modules/funcionamento.js';
 import fetchFilmes from './modules/fetch-filmes.js';
 import fetchBitcoin from './modules/fetch-bitcoin.js';
 import DropdownMenu from './modules/dropDownMenu.js';
@@ -45,5 +45,7 @@ dropdownMenu.init();
 const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]');
 menuMobile.init();
 
+const funcionamento = new Funcionamento('[data-semana]');
+funcionamento.init();
+
 endOfTheSite();
-initFuncionamento();
