@@ -3,7 +3,7 @@ import Accordion from './modules/Accordion.js';
 import TabNav from './modules/TabNav.js';
 import Modal from './modules/Modal.js';
 import ToolTip from './modules/ToolTip.js';
-import initAnimacaoScroll from './modules/AnimacaoScroll.js';
+import ScrollAnima from './modules/Scroll-anima.js';
 import endOfTheSite from './modules/endOfTheSite.js';
 import initDropDownMenu from './modules/dropDownMenu.js';
 import outsideClick from './modules/outsideClick.js';
@@ -37,7 +37,9 @@ tooltip.init();
 fetchFilmes(' ../../filmesapi.json', '.numeros-grid');
 fetchBitcoin('https://blockchain.info/ticker', '.btc-preco');
 
-initAnimacaoScroll();
+const scrollAnima = new ScrollAnima('[data-anime="scroll"]');
+scrollAnima.init();
+
 endOfTheSite();
 initDropDownMenu();
 outsideClick();
