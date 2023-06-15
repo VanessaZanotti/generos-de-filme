@@ -11,6 +11,7 @@ export default function outsideClick(element, events, callback) {
       callback();
     }
   }
+
   if (!element.hasAttribute(outside)) {
     events.forEach((userEvent) => {
       setTimeout(() => {
