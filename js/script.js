@@ -5,7 +5,7 @@ import Modal from './modules/Modal.js';
 import ToolTip from './modules/ToolTip.js';
 import ScrollAnima from './modules/Scroll-anima.js';
 import endOfTheSite from './modules/endOfTheSite.js';
-import initMenuMobile from './modules/menu-mobile.js';
+import MenuMobile from './modules/menu-mobile.js';
 import initFuncionamento from './modules/funcionamento.js';
 import fetchFilmes from './modules/fetch-filmes.js';
 import fetchBitcoin from './modules/fetch-bitcoin.js';
@@ -42,6 +42,8 @@ scrollAnima.init();
 const dropdownMenu = new DropdownMenu('[data-dropdown]');
 dropdownMenu.init();
 
+const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]');
+menuMobile.init();
+
 endOfTheSite();
-initMenuMobile();
 initFuncionamento();
