@@ -5,7 +5,6 @@ import Modal from './modules/Modal.js';
 import ToolTip from './modules/ToolTip.js';
 import ScrollAnima from './modules/Scroll-anima.js';
 import endOfTheSite from './modules/endOfTheSite.js';
-import outsideClick from './modules/outsideClick.js';
 import initMenuMobile from './modules/menu-mobile.js';
 import initFuncionamento from './modules/funcionamento.js';
 import fetchFilmes from './modules/fetch-filmes.js';
