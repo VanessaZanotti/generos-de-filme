@@ -10,6 +10,7 @@ import Funcionamento from './modules/funcionamento.js';
 import fetchFilmes from './modules/fetch-filmes.js';
 import fetchBitcoin from './modules/fetch-bitcoin.js';
 import DropdownMenu from './modules/dropDownMenu.js';
+import SlideNav from './modules/slide.js';
 
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
 scrollSuave.init();
@@ -49,3 +50,7 @@ const funcionamento = new Funcionamento('[data-semana]');
 funcionamento.init();
 
 endOfTheSite();
+
+const slide = new SlideNav('.slide', '.slide-wrapper');
+slide.init();
+slide.addControl('.custom-control');
