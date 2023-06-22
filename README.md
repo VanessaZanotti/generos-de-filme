@@ -1,8 +1,7 @@
 # Generos de filme
 Projeto final do curso de JavaScript Completo.
 
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/vFChd5Mlr6Q) 
+[![Watch the video](/img/recording-2023-06-22-20-15-23.gif)](https://youtu.be/vFChd5Mlr6Q) 
 
-<video src='[your URL here](https://youtu.be/vFChd5Mlr6Q)' width=180/>
   
 https://vanessazanotti.github.io/generos-de-filme/
