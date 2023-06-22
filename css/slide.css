@@ -18,7 +18,7 @@
 .slide li {
   flex-shrink: 0;
   width: 80vw;
-  max-width: 800px;
+  max-width: 500px;
   margin: 0 20px;
 
   border-radius: 4px;
@@ -51,6 +51,7 @@
   margin: 2px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .custom-control li.active {
