@@ -145,7 +145,7 @@ export class Slide {
     this.addSlideEvents();
     this.slideConfig();
     this.addResizeEvent();
-    this.changeSlide(0);
+    this.changeSlide(1);
     return this;
   }
 }
