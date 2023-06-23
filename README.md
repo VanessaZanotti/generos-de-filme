@@ -19,7 +19,7 @@ Gêneros de Filme é um site desenvolvido no curso de JavaScript ES6+ completo p
 Faça um clone deste repositório:
 
 ```sh
-  $ git clone https://github.com/vanessaZanotti/generos-de-filme.git
+  $ git clone https://github.com/VanessaZanotti/generos-de-filme.git
 ```
 
 Instale as dependências:
