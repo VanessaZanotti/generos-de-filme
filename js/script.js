@@ -34,7 +34,7 @@ modal.init();
 const tooltip = new ToolTip('[data-tooltip]');
 tooltip.init();
 
-fetchFilmes('generos-de-filme/filmesapi.json', '.numeros-grid');
+fetchFilmes('/filmesapi.json', '.numeros-grid');
 fetchBitcoin('https://blockchain.info/ticker', '.btc-preco');
 
 const scrollAnima = new ScrollAnima('[data-anime="scroll"]');
