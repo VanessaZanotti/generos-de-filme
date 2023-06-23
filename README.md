@@ -4,6 +4,7 @@
 
 Gêneros de Filme é um site desenvolvido no curso de JavaScript ES6+ completo pela Origamid.
 <br>
+<a href="https://vanessazanotti.github.io/generos-de-filme/">Live Preview</a>
 
 ## Tecnologias
 
